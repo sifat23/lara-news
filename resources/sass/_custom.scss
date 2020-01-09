@@ -1,0 +1,99 @@
+$primary-color: #731e1e;
+
+.bg-news {
+    background-color: $primary-color;
+}
+.no-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.no-padding-right {
+    padding-right: 0px !important;
+}
+.no-padding-left {
+    padding-left: 0px !important;
+}
+.navbar-light {
+    .navbar-brand {
+        font-family: 'Cute Font', cursive;
+        color: white !important;
+    }
+    .navbar-nav {
+        .nav-link {
+            color: #fff !important;
+        }
+        .active {
+            .nav-link {
+                color: #ffe70a !important;
+            }
+        }
+    }
+}
+
+.navbar-dark {
+    .navbar-brand {
+        color: black !important;
+    }
+    .navbar-nav {
+        .nav-link {
+            color: black !important;
+        }
+    }
+}
+
+.carousel-caption {
+    right: 0% !important;
+    left: 0% !important;
+    width: 100% !important;
+    background: #7f7f7fa6;
+
+}
+.carousel-image {
+    height: 400px;
+    width: 100%;
+}
+
+.form-control {
+    height: calc(1em + 0.75rem + 2px) !important;
+    padding: 0.3rem 0.5rem;
+}
+.btn {
+    padding: 2px 10px !important;
+}
+.btn-outline-theme {
+    color: $primary-color !important;
+    border-color: $primary-color !important;
+    &:hover {
+        color: white !important;
+        background-color: $primary-color !important;
+        border-color: $primary-color !important;
+    }
+}
+.resize-section-btn {
+    margin-top: 10px;
+}
+.section-brand {
+    background: $primary-color;
+    color: white;
+    margin-bottom: auto;
+    width: fit-content;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-left-radius: 5px;
+    clip-path: polygon(85% 0%, 0% 0%, 0% 100%, 100% 100%, 97% 100%);
+}
+.hr-section {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    border: 0;
+    border-top: 3px solid $primary-color;
+}
+
+.owl-nav {
+    text-align: right !important;
+    .owl-custom-nav {
+        font-size: 30px !important;
+        margin-top: -15px !important;
+    }
+}
